@@ -19,6 +19,7 @@ function App() {
         }}
         videoStyle={{ width: '400px', height: '300px' }}
         videoContainerStyle={{position: 'absolute', overflow: 'unset', padding: 'unset'}}
+        facingMode='environment'
       />
       <p style={{position: 'absolute', top: '50%', left: '0'}}>{data}</p>
     </>
